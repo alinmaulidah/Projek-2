@@ -1,0 +1,17 @@
+@keyframes marquee-left-to-right {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+@keyframes marquee-right-to-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.marquee-left-to-right {
+    animation: marquee-left-to-right 10s linear infinite;
+}
+
+.marquee-right-to-left {
+    animation: marquee-right-to-left 10s linear infinite;
+}
